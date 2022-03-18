@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  color: rgb(227, 246, 252);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  margin: 0;
+  background-image: url(./images/john-fowler-7Ym9rpYtSdA-unsplash.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: black;
+}
+.topHeading {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 2px 3px 4px rgb(63, 206, 211);
+}
+.selectCharacterForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+.selectCharacterForm > * {
+  margin: 5px;
+  text-align: center;
+}
+#character_two,
+#character_one {
+  border-radius: 50px 50px;
+  padding: 7px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.76);
+  color: rgb(50, 225, 231);
+  width: 400px;
+}
+.selectCharacters {
+  padding: 10px;
+  border: none;
+}
+.characters {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 650px;
+}
+.charOne,
+.charTwo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  max-width: 400px;
+}
+.charOne {
+  margin-right: 20px;
+}
+span {
+  display: inline-block;
+  padding: 5px;
+  background-color: rgb(0 0 0 / 61%);
+}
+.charPic {
+  border-radius: 10px;
+  max-width: 250px;
+  box-shadow: 0px 0px 15px 0px rgb(205 252 253);
+  border: 1px double rgb(47, 241, 255);
+  display: block;
+}
+
+.btn {
+  padding: 6px;
+  width: 95px;
+}
+.btn,
+.selectCharacters {
+  border-radius: 100px 40px;
+  background-color: rgb(50, 225, 231);
+  box-shadow: inset -2px 1px 10px 8px rgb(205 252 253);
+  color: rgb(51, 50, 50);
+  font-weight: bold;
+}
